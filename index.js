@@ -1,3 +1,15 @@
+// Map
+// Feb 2 (Edited Feb 2)
+// Напишіть функцію, яка приймає два рядки
+// і повертає true, якщо з літер першого рядка можна скласти другий і навпаки
+// false - якщо не можна
+
+//compare('test', 'text') -> false
+//compare('Mom', 'omm') -> true
+//compare('asd', 'Sad') ->true
+//compare('asd', 'ssaadd') ->false
+//compare('ssaadd', 'asd') ->false
+
 const compare = (str1, str2) => {
   const map1 = new Map();
   const map2 = new Map();
